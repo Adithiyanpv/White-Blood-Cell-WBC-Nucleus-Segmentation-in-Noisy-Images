@@ -14,10 +14,10 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 | Input Image                          | Output Produced by our approach<br>(RED BORDER)                    |
 |--------------------------------------|--------------------------------------------------------------------|
-| ![Input Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true) | ![Output Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true) |
-| ![Input Image 2](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true) | ![Output Image 2](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true) |
-| ![Input Image 3](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true) | ![Output Image 3](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true) |
-| ![Input Image 4](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true) | ![Output Image 4](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true) |
+| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
+| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
+| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
+| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 
 
 ## Our own methodology which we used
