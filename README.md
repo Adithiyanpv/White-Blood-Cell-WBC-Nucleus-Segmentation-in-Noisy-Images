@@ -12,13 +12,12 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 ## Results We Achieved
 
-| Input Image                          | Segmented Output <br>(RED BORDER)                    |
-|--------------------------------------|--------------------------------------------------------------------|
+| Input Image | Segmented Output <br>(RED BORDER) |
+|-------------|----------------------------------|
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
-
 
 ## Our own methodology which we used
 
@@ -121,23 +120,23 @@ Graph-based segmentation treats the image as a graph where pixels are nodes conn
 Our methodology combined color-based segmentation, morphological operations, and the watershed algorithm for precise boundary delineation:
 
 1. **Preprocessing:**  
-   - **Color Conversion:** The input image was converted from BGR to RGB for visualization.
+   - **Color Conversion:** The input image was converted from BGR to RGB for visualization.  
    - **Blue-Plane Extraction:** A custom formula was used to extract the blue plane by subtracting half of the red and green channel intensities. This enhanced the contrast of the WBC nuclei relative to the background.
 
 2. **Binary Mask Creation:**  
-   - A threshold of **29** was applied (empirically determined via histogram analysis) to generate a binary mask.
-   - Small objects with an area of less than **1000 pixels** were filtered out.
+   - A threshold of **29** was applied (empirically determined via histogram analysis) to generate a binary mask.  
+   - Small objects with an area of less than **1000 pixels** were filtered out.  
    - Morphological operations (closing and opening with an elliptical kernel) were applied to fill small holes and remove residual noise.
 
 3. **Watershed Segmentation:**  
-   - A distance transform was computed to emphasize the central regions of the nuclei.
-   - Sure foreground and sure background regions were identified through thresholding and dilation, respectively.
-   - The difference between these regions highlighted the unknown areas, where connected component labeling was used to mark nuclei.
+   - A distance transform was computed to emphasize the central regions of the nuclei.  
+   - Sure foreground and sure background regions were identified through thresholding and dilation, respectively.  
+   - The difference between these regions highlighted the unknown areas, where connected component labeling was used to mark nuclei.  
    - The watershed algorithm was then applied, marking the nuclei boundaries distinctly in red.
 
 4. **Evaluation:**  
-   - The segmented output was compared to a pseudo-ground truth generated from the processed binary image.
-   - Metrics such as **Intersection over Union (IoU)**, **Dice coefficient**, and **pixel accuracy** were computed.
+   - The segmented output was compared to a pseudo-ground truth generated from the processed binary image.  
+   - Metrics such as **Intersection over Union (IoU)**, **Dice coefficient**, and **pixel accuracy** were computed.  
    - Additional analyses included counting segmented nuclei, calculating nucleus area, and determining circularity to assess shape consistency.
 
 ---
@@ -154,6 +153,8 @@ Our methodology combined color-based segmentation, morphological operations, and
 | **Number of Segmented Nuclei**     | `1`             | Indicates either a single nucleus was present or multiple overlapping nuclei were merged into one segment.                                            |
 | **Area of Nucleus**                | `5166 pixels`   | Provides a quantitative measure of the nucleus size, important for biological analysis.                                                               |
 | **Circularity of Nucleus**         | `0.57`          | Suggests the nucleus has a moderately circular shape, typical for biological structures.                                                              |
+
+---
 
 ## 6. Conclusion and Future Work
 
