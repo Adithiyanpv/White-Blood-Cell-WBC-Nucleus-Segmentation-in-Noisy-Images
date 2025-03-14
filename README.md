@@ -16,9 +16,9 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 | Input Image | Output Produced by our approach |
 | ----------- | ------------------------------- |
 | ![Input Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg) | ![Output Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg) |
-| ![Input Image 2](path/to/input_image2.jpg) | ![Output Image 2](path/to/output_image2.jpg) |
-| ![Input Image 3](path/to/input_image3.jpg) | ![Output Image 3](path/to/output_image3.jpg) |
-| ![Input Image 4](path/to/input_image4.jpg) | ![Output Image 4](path/to/output_image4.jpg) |
+| ![Input Image 2](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg) | ![Output Image 2](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg) |
+| ![Input Image 3](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg) | ![Output Image 3](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg) |
+| ![Input Image 4](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg) | ![Output Image 4](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg) |
 
 
 
