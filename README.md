@@ -12,7 +12,7 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 ## Results We Achieved
 
-| Input Image                          | Output Produced by our approach<br>(RED BORDER)                    |
+| Input Image                          | Segmented Output <br>(RED BORDER)                    |
 |--------------------------------------|--------------------------------------------------------------------|
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
