@@ -57,6 +57,43 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 
 
+## Our own methodology which we used
+
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Original Image</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Extracted Blue Plane</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Binarized Image</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Morphological Results</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Background</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Final Segmented Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110843.png" alt="Median Filtered Image" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110914.png" alt="Extracted Blue Plane" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110932.png" alt="Binarized Image" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110949.png" alt="Morphological Results" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20111006.png" alt="Background" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20111022.png" alt="Final Segmented Image" width="200"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ### 1.2 Justification & Challenges
