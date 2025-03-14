@@ -55,8 +55,6 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
   </tbody>
 </table>
 
-
-
 ## Our own methodology which we used
 
 <table style="width: 100%; border-collapse: collapse;">
@@ -73,7 +71,7 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
   <tbody>
     <tr>
       <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
-        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110843.png" alt="Median Filtered Image" width="200"/>
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110843.png" alt="Original Image" width="200"/>
       </td>
       <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
         <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/Screenshot%202025-03-14%20110914.png" alt="Extracted Blue Plane" width="200"/>
@@ -94,37 +92,11 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
   </tbody>
 </table>
 
-
-
-### 1.2 Justification & Challenges
-
-The WBC nucleus segmentation task is complex due to the following challenges:
-
-- **Noise Variability:** Presence of Gaussian noise, Poisson noise, and speckle noise can distort WBC boundaries.
-- **Class Variability:** Different WBC types exhibit distinct morphologies and intensities.
-- **Overlapping Regions:** Nuclei often overlap with cytoplasm, requiring precise boundary detection.
-- **Colour Similarity:** Neutrophils, basophils, eosinophils, and monocytes exhibit subtle colour differences that challenge segmentation models.
-
-### 1.3 About the Dataset
-
-This dataset comprises:
-
-- **Augmented Images:**  
-  - **12,500 JPEG images** with accompanying cell type labels in CSV format.  
-  - Approximately **3,000 images per cell type** (Eosinophil, Lymphocyte, Monocyte, and Neutrophil) organized into separate folders.
-  
-- **Original Images and Metadata:**  
-  - **410 original images** (pre-augmentation) contained in the folder `dataset-master`, accompanied by subtype labels and bounding boxes (JPEG + XML).  
-  - **Additional augmented dataset:** Located in the folder `dataset2-master`, including 2,500 augmented images with 4 additional subtype labels (JPEG + CSV).  
-  - The distribution in `dataset-master` is approximately 88, 33, 21, and 207 images per cell type, compared to about 3,000 images per cell type in the augmented set.
-
 ---
 
 ## 2. Preprocessing & Filter Comparison
 
 ### Visual Comparison of Filters
-
-Different filters were evaluated to reduce noise while preserving important structural details:
 
 - **Gaussian Filter:**  
   Produced smoother images but blurred small, detailed objects.
@@ -207,27 +179,16 @@ Our methodology combined color-based segmentation, morphological operations, and
 
 ## 5. Results and Discussion
 
-### Quantitative Metrics
+### Quantitative Metrics and Nuclei Segmentation Details
 
-- **Pixel Accuracy:** `0.9871`  
-  98.71% of the pixels in the segmented image match the pseudo-ground truth, demonstrating high classification accuracy.
-
-- **Intersection over Union (IoU):** `0.7610`  
-  This score indicates a strong overlap between the segmented regions and the ground truth; a value above 0.7 is generally considered good.
-
-- **Dice Coefficient:** `0.8643`  
-  A Dice score close to 1.0 indicates excellent segmentation performance, balancing both precision and recall.
-
-### Nuclei Segmentation Details
-
-- **Number of Segmented Nuclei:** 1  
-  Indicates either a single nucleus was present or multiple overlapping nuclei were merged into one segment.
-
-- **Area of Nucleus:** 5166 pixels  
-  Provides a quantitative measure of the nucleus size, important for biological analysis.
-
-- **Circularity of Nucleus:** 0.57  
-  Suggests the nucleus has a moderately circular shape, typical for biological structures.
+| **Metric**                         | **Value / Description**                                                                                                                                                              |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pixel Accuracy**                 | `0.9871`<br>98.71% of the pixels in the segmented image match the pseudo-ground truth, demonstrating high classification accuracy.                                               |
+| **Intersection over Union (IoU)**  | `0.7610`<br>This score indicates a strong overlap between the segmented regions and the ground truth; a value above 0.7 is generally considered good.                              |
+| **Dice Coefficient**               | `0.8643`<br>A Dice score close to 1.0 indicates excellent segmentation performance, balancing both precision and recall.                                                            |
+| **Number of Segmented Nuclei**     | `1`<br>Indicates either a single nucleus was present or multiple overlapping nuclei were merged into one segment.                                                                   |
+| **Area of Nucleus**                | `5166 pixels`<br>Provides a quantitative measure of the nucleus size, important for biological analysis.                                                                             |
+| **Circularity of Nucleus**         | `0.57`<br>Suggests the nucleus has a moderately circular shape, typical for biological structures.                                                                                  |
 
 ---
 
