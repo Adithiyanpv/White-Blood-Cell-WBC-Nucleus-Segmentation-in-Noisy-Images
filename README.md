@@ -14,7 +14,7 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 The dataset **"Blood Cell Images"** is used in this project for segmenting the nucleus of WBC. It is publicly available on Kaggle and consists of various annotated blood cell images. You can access the dataset using the link below:
 
-[Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/blood-cells/data)
+[Click Here to Access the Dataset](https://www.kaggle.com/datasets/paultimothymooney/blood-cells/data)
 
 ### 1.3 Results We Achieved
 
