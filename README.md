@@ -10,6 +10,18 @@ This repository contains the documentation and results of our study on white blo
 
 White blood cell (WBC) segmentation is a crucial task in medical image analysis, particularly for diagnosing diseases like leukemia and other hematologic conditions. Accurate segmentation of WBC nuclei is essential to distinguish different types of white blood cells, including neutrophils, basophils, eosinophils, and monocytes. However, real-world microscopic images are often affected by noise due to staining variability, uneven illumination, and artifacts during slide preparation. This noise hampers accurate object detection and segmentation.
 
+## Results We Achieved
+
+
+| Input Image | Output Produced by our approach |
+| ----------- | ------------------------------- |
+| ![Input Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg) | ![Output Image 1](https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg) |
+| ![Input Image 2](path/to/input_image2.jpg) | ![Output Image 2](path/to/output_image2.jpg) |
+| ![Input Image 3](path/to/input_image3.jpg) | ![Output Image 3](path/to/output_image3.jpg) |
+| ![Input Image 4](path/to/input_image4.jpg) | ![Output Image 4](path/to/output_image4.jpg) |
+
+
+
 ### 1.2 Justification & Challenges
 
 The WBC nucleus segmentation task is complex due to the following challenges:
