@@ -181,16 +181,14 @@ Our methodology combined color-based segmentation, morphological operations, and
 
 ### Quantitative Metrics and Nuclei Segmentation Details
 
-| **Metric**                         | **Value / Description**                                                                                                                                                              |
-|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pixel Accuracy**                 | `0.9871`<br>98.71% of the pixels in the segmented image match the pseudo-ground truth, demonstrating high classification accuracy.                                               |
-| **Intersection over Union (IoU)**  | `0.7610`<br>This score indicates a strong overlap between the segmented regions and the ground truth; a value above 0.7 is generally considered good.                              |
-| **Dice Coefficient**               | `0.8643`<br>A Dice score close to 1.0 indicates excellent segmentation performance, balancing both precision and recall.                                                            |
-| **Number of Segmented Nuclei**     | `1`<br>Indicates either a single nucleus was present or multiple overlapping nuclei were merged into one segment.                                                                   |
-| **Area of Nucleus**                | `5166 pixels`<br>Provides a quantitative measure of the nucleus size, important for biological analysis.                                                                             |
-| **Circularity of Nucleus**         | `0.57`<br>Suggests the nucleus has a moderately circular shape, typical for biological structures.                                                                                  |
-
----
+| **Metric**                         | **Value**       | **Description**                                                                                                                                     |
+|------------------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pixel Accuracy**                 | `0.9871`        | 98.71% of the pixels in the segmented image match the pseudo-ground truth, demonstrating high classification accuracy.                                |
+| **Intersection over Union (IoU)**  | `0.7610`        | This score indicates a strong overlap between the segmented regions and the ground truth; a value above 0.7 is generally considered good.             |
+| **Dice Coefficient**               | `0.8643`        | A Dice score close to 1.0 indicates excellent segmentation performance, balancing both precision and recall.                                          |
+| **Number of Segmented Nuclei**     | `1`             | Indicates either a single nucleus was present or multiple overlapping nuclei were merged into one segment.                                            |
+| **Area of Nucleus**                | `5166 pixels`   | Provides a quantitative measure of the nucleus size, important for biological analysis.                                                               |
+| **Circularity of Nucleus**         | `0.57`          | Suggests the nucleus has a moderately circular shape, typical for biological structures.                                                              |
 
 ## 6. Conclusion and Future Work
 
