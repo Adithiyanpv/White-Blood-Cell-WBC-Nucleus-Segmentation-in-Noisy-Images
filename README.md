@@ -12,12 +12,49 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 
 ## Results We Achieved
 
-| Input Image | Output Produced by our approach (RED BORDER) |
-| ----------- | ------------------------------- |
-| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true" alt="Input Image 1" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true" alt="Output Image 1" width="200"/> |
-| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true" alt="Input Image 2" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true" alt="Output Image 2" width="200"/> |
-| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true" alt="Input Image 3" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true" alt="Output Image 3" width="200"/> |
-| <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true" alt="Input Image 4" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true" alt="Output Image 4" width="200"/> |
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Input Image</th>
+      <th style="text-align: center; padding: 10px; border: 1px solid #ddd;">Output Produced by our approach (RED BORDER)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.39.jpeg?raw=true" alt="Input Image 1" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.20.55.jpeg?raw=true" alt="Output Image 1" width="200" style="border: 3px solid red;"/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.21.54.jpeg?raw=true" alt="Input Image 2" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.22.07.jpeg?raw=true" alt="Output Image 2" width="200" style="border: 3px solid red;"/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true" alt="Input Image 3" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true" alt="Output Image 3" width="200" style="border: 3px solid red;"/>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true" alt="Input Image 4" width="200"/>
+      </td>
+      <td style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+        <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true" alt="Output Image 4" width="200" style="border: 3px solid red;"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
