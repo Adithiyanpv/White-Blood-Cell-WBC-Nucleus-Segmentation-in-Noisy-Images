@@ -10,11 +10,13 @@ This repository contains the documentation and results of our study on white blo
 
 White blood cell (WBC) segmentation is a crucial task in medical image analysis, particularly for diagnosing diseases like leukemia and other hematologic conditions. Accurate segmentation of WBC nuclei is essential to distinguish different types of white blood cells, including neutrophils, basophils, eosinophils, and monocytes. However, real-world microscopic images are often affected by noise due to staining variability, uneven illumination, and artifacts during slide preparation. This noise hampers accurate object detection and segmentation.
 
-### Dataset Link
+### 1.2 Dataset
+
+The dataset **"Blood Cell Images"** is used in this project for segmenting the nucleus of WBC. It is publicly available on Kaggle and consists of various annotated blood cell images. You can access the dataset using the link below:
 
 [Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/blood-cells/data)
 
-## Results We Achieved
+### 1.3 Results We Achieved
 
 | Input Image | Segmented Output <br>(RED BORDER) |
 |-------------|----------------------------------|
@@ -23,7 +25,7 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.19.jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.23.30.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.24.39%20(1).jpeg?raw=true" width="200"/> | <img src="https://github.com/rahulbio/30_days_of_dsa/blob/main/WhatsApp%20Image%202025-03-13%20at%2019.25.37.jpeg?raw=true" width="200" style="border: 3px solid red;"/> |
 
-## Our own methodology which we used
+### 1.4 Our Own Methodology Which We Used
 
 <table style="width: 100%; border-collapse: collapse;">
   <thead>
@@ -59,6 +61,7 @@ White blood cell (WBC) segmentation is a crucial task in medical image analysis,
     </tr>
   </tbody>
 </table>
+
 
 ---
 
