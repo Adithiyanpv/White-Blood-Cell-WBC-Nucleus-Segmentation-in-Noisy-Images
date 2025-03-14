@@ -10,6 +10,10 @@ This repository contains the documentation and results of our study on white blo
 
 White blood cell (WBC) segmentation is a crucial task in medical image analysis, particularly for diagnosing diseases like leukemia and other hematologic conditions. Accurate segmentation of WBC nuclei is essential to distinguish different types of white blood cells, including neutrophils, basophils, eosinophils, and monocytes. However, real-world microscopic images are often affected by noise due to staining variability, uneven illumination, and artifacts during slide preparation. This noise hampers accurate object detection and segmentation.
 
+### Dataset Link
+
+[Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/blood-cells/data)
+
 ## Results We Achieved
 
 | Input Image | Segmented Output <br>(RED BORDER) |
